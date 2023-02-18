@@ -1,15 +1,15 @@
-output "bastion_sg_id" {
-  value = aws_security_group.Bastion.id
+output "sg_bastion_id" {
+  value = aws_security_group.SG-Bastion.id
 }
 
-output "public_sg_id" {
-  value = aws_security_group.Public.id
+output "sg_public_id" {
+  value = aws_security_group.SG-Public.id
 }
 
-output "private_sg_id" {
-  value = aws_security_group.Private.id
+output "sg_private_id" {
+  value = aws_security_group.SG-Private.id
 }
 
-output "database_sg_id" {
-  value = aws_security_group.DB.id
+output "sg_database_id" {
+  value = aws_security_group.SG-Database.id
 }
